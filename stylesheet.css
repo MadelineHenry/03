@@ -1,0 +1,97 @@
+h {
+	font-family: "OpenSans-Bold", serif;
+}
+body {
+	font-family: "OpenSans-Regular", serif;
+	font-size: 16px;
+	color: rgb(208, 208, 209);
+	max-width: 90%;
+	margin: auto;
+	background-color: #E1E1E1;
+	background-image: url(picfront.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: cover;
+}
+
+
+body [attribute="bad"] {
+    color: red;
+}
+body [attribute="good"]{
+    color:green;
+}
+
+id{
+	background-color: yellow
+}
+
+blockquote {
+	width: 50%;
+	font-size: 160%;
+	background-color: #d0d8da9c;
+	margin-right: auto;
+	border-left: 3px solid rgb(12, 64, 85);
+	padding-left: 30px;
+	padding-top:  80px;
+	padding-bottom: 80px;
+	font-style: italic;
+}
+
+p:first-of-type{
+	font-weight: bold;
+
+}
+li:nth-child(1) {
+	display: inline-block;
+	background-image: url(bien.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 30%;
+	background-size: contain;
+	padding-right: 20px ;
+}
+
+li:nth-child(2){
+	display: inline-block;
+	background-image: url(mal.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 30%;
+	background-size: contain;
+	padding-right: 20px ;
+}
+
+li:nth-child(3){
+	display: inline-block;
+	background-image: url(chat.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 30%;
+	background-size: contain;
+	padding-right: 20px ;
+}
+
+.farmer {
+	border-left:2px solid green;
+}
+.villagers {
+	border-left:2px solid pink;
+}
+
+a:visited {
+	color: black
+	text-decoration: underline;
+	property: inherit;
+}
+a:hover {
+	color:blue;
+	text-decoration: underline;
+	property: inherit;
+}
+
+tr:nth-child(odd){
+	background-color: white
+}
+tr:nth-child(even){
+	background-color: grey
